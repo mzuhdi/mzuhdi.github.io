@@ -6,6 +6,10 @@ body {
 div{
     display:block;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .jumbotron{
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     background: url('pics/tropical.jpg') no-repeat center center;
@@ -42,4 +46,8 @@ div{
 .progress-bar {
   text-align: left;
   transition-duration: 3s;
+}
+#contact{
+    text-align: center;
+    padding-bottom: 20px;
 }
