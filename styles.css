@@ -12,8 +12,17 @@ a{
 }
 .jumbotron{
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    background: url('pics/tropical.jpg') no-repeat center center;
+    background: url('pics/tropical.jpg');
     height:100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1024px) {
+    .jumbotron {
+        background-attachment: scroll;
+    }
 }
 .jumbotron .container {
     text-align:center;
